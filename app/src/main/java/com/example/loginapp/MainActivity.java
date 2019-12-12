@@ -3,6 +3,7 @@ package com.example.loginapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         email= (EditText)findViewById(R.id.email);
         password= (EditText)findViewById(R.id.password);
+
+        Log.d("MainTag", "Hello world!!: ");
 
     }
 
